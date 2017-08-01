@@ -1,0 +1,8 @@
+
+ a sequential quicksort is running now
+ 
+On processor 0 the execution time was: 0.000256
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 4 0 4 0 4 0 4 0 4$
+
+

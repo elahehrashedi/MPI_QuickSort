@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#PBS -l ncpus=16
+#PBS -l nodes=1:ppn=16
+#PBS -o /wsu/home/fp/fp06/fp0634/pr/o_Quick
+#PBS -e /wsu/home/fp/fp06/fp0634/pr/e_Quick
+#PBS -q wsuq
+ 
+module load openmpi-1.8.8
+/wsu/apps/gnu-4.4.7/openmpi/openmpi-1.8.8/bin/mpirun \
+-machinefile $PBS_NODEFILE \
+-np 16 \
+/wsu/home/fp/fp06/fp0634/pr/Quick
